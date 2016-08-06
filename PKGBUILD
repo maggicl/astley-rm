@@ -10,8 +10,7 @@ makedepends=('git' 'youtube-dl')
 
 _branch=master
 
-#source=("$pkgname-$_branch.zip::https://github.com/praticamentetilde/$pkgname/archive/$_branch.zip")
-source=("$pkgname-$_branch.zip")
+source=("$pkgname-$_branch.zip::https://github.com/praticamentetilde/$pkgname/archive/$_branch.zip")
 sha512sums=(SKIP)
 
 package() {
