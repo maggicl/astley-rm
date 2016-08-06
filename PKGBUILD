@@ -19,5 +19,7 @@ package() {
   install -D -m755 astley-rm.sh "$pkgdir"/usr/bin/astley-rm
   echo "Placing /usr/bin/astley-rm-config script..."
   install -D -m755 astley-rm-config.sh "$pkgdir"/usr/bin/astley-rm-config
+  echo "Installing license..."
+  install -D -m644 LICENSE "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
   echo "Done."
 }
