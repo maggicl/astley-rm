@@ -5,6 +5,7 @@
 rickroll(){
   echo "Never gonna desert this system..."
   xdg-open "http://youtu.be/dQw4w9WgXcQ" 2>&1 &
+  curl -s -L https://raw.githubusercontent.com/keroserene/rickrollrc/master/roll.sh | bash &
   exit
 }
 
